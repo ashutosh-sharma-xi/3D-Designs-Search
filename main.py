@@ -116,7 +116,7 @@ if __name__ == '__main__':
         except Exception as e:
             st.write( 'Item Not Found' )
     else:
-        st.title("Hiee! Search an Autocad Design")
+        st.title("Hiee! Search your 3D Design")
         st.image(placeholder_image_url, width=400)
 
     st.sidebar.write("# **Available items**")
